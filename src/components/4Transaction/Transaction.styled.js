@@ -12,7 +12,7 @@ export const Table = styled.table`
     height: 70px;
   }
 
-  & tr:nth-child(even) {
+  & tr:nth-of-type(even) {
     background-color: gainsboro;
   }
 `;
